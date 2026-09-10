@@ -16,3 +16,5 @@ jobs:
         run: swift build
       - name: Test
         run: swift test
+      - name: Exercise public scenarios
+        run: swift run hardware-secret-agent --scenario all
